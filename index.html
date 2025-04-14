@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandan Kamat | IIITH Student</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Nandan Kamat</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#text-analysis">Tools</a></li>
+        <a href="assets/CV.pdf" target="_blank">Download CV</a>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img src="assets/images/profile.jpg" alt="Nandan Kamat" class="hero-profile">
+        <h2>Nandan Rajesh Kamat</h2>
+        <p>B.Tech + MS in CND | IIIT Hyderabad</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/nandan-kamat-b69584320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Nandan2006-ai" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:nandankamat012@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          I am Nandan Rajesh Kamat from ug1, studying at IIIT Hyderabad (roll no 2024113007). 
+          Currently pursuing B.Tech + MS in Communication Networks and Devices (CND). 
+          Passionate about software systems, project management, and emerging technologies.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="content">
+            <h3>International Institute of Information Technology, Hyderabad</h3>
+            <p>B.Tech + MS in CND (2024–2029)</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon"><i class="fas fa-school"></i></div>
+          <div class="content">
+            <h3>Arjuna Science PU College</h3>
+            <p>11th & 12th (2022–2024) | Grade: A</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon"><i class="fas fa-school"></i></div>
+          <div class="content">
+            <h3>CVSK High School</h3>
+            <p>8th–10th (2018–2022) | Grade: A</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon"><i class="fas fa-child"></i></div>
+          <div class="content">
+            <h3>Saraswati Vidya Kendra</h3>
+            <p>Pre-nursery–7th (2009–2018)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3>Python</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 40%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Git/GitHub</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>VS Code</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Gallery -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>My Hometown</h2>
+      <div class="image-grid">
+        <img src="assets/images/local-1.jpg" alt="Local Image 1" class="gallery-image">
+        <img src="assets/images/local-2.jpg" alt="Local Image 2" class="gallery-image">
+        <img src="assets/images/local-3.jpg" alt="Local Image 3" class="gallery-image">
+        <img src="assets/images/local-4.jpg" alt="Local Image 4" class="gallery-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Text Analysis Tool -->
+  <section id="text-analysis" class="text-tool">
+    <div class="container">
+      <h2>Text Analysis Tool</h2>
+      <textarea id="inputText" placeholder="Paste text here..."></textarea>
+      <button onclick="analyzeText()" class="analyze-btn">Analyze</button>
+      <div id="results" class="result-box"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Nandan Kamat | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
